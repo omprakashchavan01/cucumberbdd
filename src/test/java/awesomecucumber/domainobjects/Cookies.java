@@ -9,15 +9,15 @@ import java.util.List;
 public class Cookies {
     private io.restassured.http.Cookies cookies;
 
-    public io.restassured.http.Cookies getCookies() {
+    public io.restassured.http.Cookies get() {
         return cookies;
     }
 
-    public void setCookies(io.restassured.http.Cookies cookies) {
+    public void set(io.restassured.http.Cookies cookies) {
         this.cookies = cookies;
     }
 
-    public void injectCookiesToBrowser(WebDriver driver){
+    public void injectToBrowser(WebDriver driver){
         List<Cookie> seleniumCookies = new CookieUtils().convertRestAssuredCookiesToSeleniumCookies(cookies);
         int i = 0;
         for(Cookie cookie: seleniumCookies){
