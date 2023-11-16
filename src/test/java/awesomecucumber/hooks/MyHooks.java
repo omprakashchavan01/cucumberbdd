@@ -17,7 +17,7 @@ public class MyHooks {
 
     @Before
     public void before(Scenario scenario){
-        System.out.println("BEFORE: THREAD ID : " + Thread.currentThread().getId() + "," +
+        System.out.println("BEFORE: THREAD ID : " + Thread.currentThread().threadId() + "," +
                 "SCENARIO NAME: " + scenario.getName());
         driver = DriverFactory.initializeDriver(System.getProperty("browser", "chrome"));
         context.driver = driver;
@@ -25,7 +25,7 @@ public class MyHooks {
 
     @After
     public void after(Scenario scenario){
-        System.out.println("AFTER: THREAD ID : " + Thread.currentThread().getId() + "," +
+        System.out.println("AFTER: THREAD ID : " + Thread.currentThread().threadId() + "," +
                 "SCENARIO NAME: " + scenario.getName());
         driver.quit();
     }
