@@ -1,7 +1,7 @@
 # CucumberBDDFramework
-Learn *real world* Cucumber BDD from scratch, develop robust framework with Selenium WebDriver, Rest Assured, Page Object Model & APIs
+**Learn *real world* Cucumber BDD from scratch, develop robust framework with Selenium WebDriver, Rest Assured, Page Object Model & APIs
 
-**Step by step instructions to build this framework from scratch and integrate with Jenkins CI is in this Udemy course.
+Step by step instructions to build this framework from scratch and integrate with Jenkins CI is in this Udemy course.
 Enroll today at the minimal rate of INR 499/ $12.99.
 Link with coupon code: https://www.udemy.com/course/cucumber-bdd-masterclass/?couponCode=APR2024**
 
