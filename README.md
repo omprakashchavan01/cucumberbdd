@@ -5,7 +5,7 @@ Learn *real world* Cucumber BDD from scratch, develop robust framework with Sele
 Enroll today at the minimal rate of INR 499/ $12.99.
 Link with coupon code: https://www.udemy.com/course/cucumber-bdd-masterclass/?couponCode=APR2024**
 
-![Udemy_Landing_Page](/CourseLandingPage.PNG)
+![Udemy_Landing_Page](/CourseLandingPage.png)
 
 Technologies/Tools used in building the framework
 =================================================
